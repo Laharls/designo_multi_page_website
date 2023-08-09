@@ -38,179 +38,208 @@ export default function Home() {
                 />
             </div>
 
-            <div className='grid gap-y-4 justify-items-center mb-[128px]'>
-                {/* First Image */}
-                <div className='relative'>
-                    <Image
-                        priority
-                        src="/images/home/mobile/image-web-design.jpg"
-                        width={327}
-                        height={250}
-                        alt='A part of a laptop with a touchpad'
-                        className='rounded-lg md:hidden'
-                    />
+            <div className='desktop:flex desktop:justify-center'>
+                <div className='grid gap-y-4 justify-items-center mb-[128px] desktop:grid-cols-[541px_541px] desktop:grid-rows-2 desktop:gap-x-4'>
+                    {/* First Image */}
+                    <div className='relative desktop:row-span-2'>
+                        <Image
+                            priority
+                            src="/images/home/mobile/image-web-design.jpg"
+                            width={327}
+                            height={250}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg md:hidden'
+                        />
 
-                    <Image
-                        priority
-                        src="/images/home/tablet/image-web-design.jpg"
-                        width={689}
-                        height={200}
-                        alt='A part of a laptop with a touchpad'
-                        className='rounded-lg hidden md:inline-block'
-                    />
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
-                        <div className='text-center'>
-                            <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Web design</p>
-                            <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                        <Image
+                            priority
+                            src="/images/home/tablet/image-web-design.jpg"
+                            width={689}
+                            height={200}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/desktop/image-web-design-large.jpg"
+                            width={541}
+                            height={640}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden row-span-2 desktop:inline-block'
+                        />
+                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                            <div className='text-center'>
+                                <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Web design</p>
+                                <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                {/* Second Image */}
-                <div className='relative'>
-                    <Image
-                        priority
-                        src="/images/home/mobile/image-app-design.jpg"
-                        width={327}
-                        height={250}
-                        alt='a smartphone'
-                        className='rounded-lg md:hidden'
-                    />
+                    {/* Second Image */}
+                    <div className='relative'>
+                        <Image
+                            priority
+                            src="/images/home/mobile/image-app-design.jpg"
+                            width={327}
+                            height={250}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg md:hidden'
+                        />
 
-                    <Image
-                        priority
-                        src="/images/home/tablet/image-app-design.jpg"
-                        width={689}
-                        height={200}
-                        alt='A part of a laptop with a touchpad'
-                        className='rounded-lg hidden md:inline-block'
-                    />
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
-                        <div className='text-center'>
-                            <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>App design</p>
-                            <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                        <Image
+                            priority
+                            src="/images/home/tablet/image-app-design.jpg"
+                            width={689}
+                            height={200}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/desktop/image-app-design.jpg"
+                            width={541}
+                            height={308}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden row-span-2 desktop:inline-block'
+                        />
+                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                            <div className='text-center'>
+                                <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>App design</p>
+                                <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                {/* Third Image */}
-                <div className='relative'>
-                    <Image
-                        priority
-                        src="/images/home/mobile/image-graphic-design.jpg"
-                        width={327}
-                        height={250}
-                        alt='idk'
-                        className='rounded-lg md:hidden'
-                    />
+                    {/* Third Image */}
+                    <div className='relative'>
+                        <Image
+                            priority
+                            src="/images/home/mobile/image-graphic-design.jpg"
+                            width={327}
+                            height={250}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg md:hidden'
+                        />
 
-                    <Image
-                        priority
-                        src="/images/home/tablet/image-app-design.jpg"
-                        width={689}
-                        height={200}
-                        alt='A part of a laptop with a touchpad'
-                        className='rounded-lg hidden md:inline-block'
-                    />
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
-                        <div className='text-center'>
-                            <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Graphic design</p>
-                            <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                        <Image
+                            priority
+                            src="/images/home/tablet/image-graphic-design.jpg"
+                            width={689}
+                            height={200}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/desktop/image-graphic-design.jpg"
+                            width={541}
+                            height={308}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden row-span-2 desktop:inline-block'
+                        />
+                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                            <div className='text-center'>
+                                <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Graphic design</p>
+                                <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+
             {/* --------------------------------------------------------------------------------- */}
-
-            <div className='flex flex-col items-center md:items-stretch'>
-                <div className='flex flex-col items-center md:flex-row justify-around'>
-                    <div className='relative z-10 mb-12'>
-                        <Image
-                            src="/images/home/desktop/illustration-passionate.svg"
-                            width={202}
-                            height={202}
-                            alt='Character working on a graphical tablet'
-                        />
-
-                        <div className='absolute top-0 z-0'>
+            <div className='desktop:flex desktop:justify-center'>
+                <div className='flex flex-col items-center md:items-stretch desktop:flex-row'>
+                    <div className='flex flex-col items-center md:flex-row justify-around desktop:flex-col'>
+                        <div className='relative z-10 mb-12'>
                             <Image
-                                src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                src="/images/home/desktop/illustration-passionate.svg"
                                 width={202}
                                 height={202}
-                                alt='Light circle design'
+                                alt='Character working on a graphical tablet'
                             />
+
+                            <div className='absolute top-0 z-0'>
+                                <Image
+                                    src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                    width={202}
+                                    height={202}
+                                    alt='Light circle design'
+                                />
+                            </div>
+                        </div>
+
+                        <div className='desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
+                            <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px] desktop:text-center`} >PASSIONATE</p>
+                            <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px] desktop:text-center desktop:w-[350px]`}>
+                                Each project starts with an in-depth brand research to ensure we only create products that serve a purpose.
+                                We merge art, design, and technology into exciting new solutions.
+                            </p>
                         </div>
                     </div>
 
-                    <div>
-                        <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px]`} >PASSIONATE</p>
-                        <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px]`}>
-                            Each project starts with an in-depth brand research to ensure we only create products that serve a purpose.
-                            We merge art, design, and technology into exciting new solutions.
-                        </p>
-                    </div>
-                </div>
-
-                <div className='flex flex-col items-center md:flex-row justify-around'>
-                    <div className='relative z-10 mb-12'>
-                        <Image
-                            src="/images/home/desktop/illustration-resourceful.svg"
-                            width={202}
-                            height={202}
-                            alt='Character working on a graphical tablet'
-                        />
-
-                        <div className='absolute top-0 z-0'>
+                    <div className='flex flex-col items-center md:flex-row justify-around desktop:flex-col'>
+                        <div className='relative z-10 mb-12'>
                             <Image
-                                src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                src="/images/home/desktop/illustration-resourceful.svg"
                                 width={202}
                                 height={202}
-                                alt='Light circle design'
+                                alt='Character working on a graphical tablet'
                             />
+
+                            <div className='absolute top-0 z-0'>
+                                <Image
+                                    src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                    width={202}
+                                    height={202}
+                                    alt='Light circle design'
+                                />
+                            </div>
+                        </div>
+
+                        <div className='desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
+                            <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px] desktop:text-center`} >RESOURCEFUL</p>
+                            <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px] desktop:text-center desktop:w-[350px]`}>
+                                Everything that we do has a strategic purpose.
+                                We use an agile approach in all of our projects and value customer collaboration.
+                                It guarantees superior results that fulfill our clients needs.
+                            </p>
                         </div>
                     </div>
 
-                    <div>
-                        <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px]`} >RESOURCEFUL</p>
-                        <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px]`}>
-                            Everything that we do has a strategic purpose.
-                            We use an agile approach in all of our projects and value customer collaboration.
-                            It guarantees superior results that fulfill our clients needs.
-                        </p>
-                    </div>
-                </div>
-
-                <div className='flex flex-col items-center md:flex-row justify-around'>
-                    <div className='relative z-10 mb-12'>
-                        <Image
-                            src="/images/home/desktop/illustration-friendly.svg"
-                            width={202}
-                            height={202}
-                            alt='Character working on a graphical tablet'
-                        />
-
-                        <div className='absolute top-0 z-0'>
+                    <div className='flex flex-col items-center md:flex-row justify-around desktop:flex-col'>
+                        <div className='relative z-10 mb-12'>
                             <Image
-                                src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                src="/images/home/desktop/illustration-friendly.svg"
                                 width={202}
                                 height={202}
-                                alt='Light circle design'
+                                alt='Character working on a graphical tablet'
                             />
+
+                            <div className='absolute top-0 z-0'>
+                                <Image
+                                    src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                    width={202}
+                                    height={202}
+                                    alt='Light circle design'
+                                />
+                            </div>
+                        </div>
+
+                        <div className='desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
+                            <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px] desktop:text-center`} >FRIENDLY</p>
+                            <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px] desktop:text-center desktop:w-[350px]`}>
+                                We are a group of enthusiastic folks who know how to put people first.
+                                Our success depends on our customers,
+                                and we strive to give them the best experience a company can provide.
+                            </p>
                         </div>
                     </div>
-
-                    <div>
-                        <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px]`} >FRIENDLY</p>
-                        <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px]`}>
-                            We are a group of enthusiastic folks who know how to put people first.
-                            Our success depends on our customers,
-                            and we strive to give them the best experience a company can provide.
-                        </p>
-                    </div>
                 </div>
-
-
             </div>
         </main>
     )
