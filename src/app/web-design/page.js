@@ -34,7 +34,7 @@ export default function Web_design() {
                     width={800}
                     height={800}
                     alt='A circle for the design'
-                    className='absolute top-[-6rem] left-28 desktop:left-[69rem]'
+                    className='absolute hidden top-[-6rem] left-28 md:inline-block desktop:left-[69rem]'
                 />
             </div>
 
@@ -56,7 +56,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:hidden'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -92,7 +92,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg desktop:hidden'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -101,7 +101,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg desktop:inline-block'
+                            className='rounded-lg hidden desktop:inline-block'
                         />
 
                         <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
@@ -128,7 +128,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:hidden'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -137,7 +137,7 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:inline-block'
+                            className='rounded-lg hidden desktop:inline-block'
                         />
 
                         <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
@@ -164,7 +164,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:hidden'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -173,7 +173,7 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:inline-block'
+                            className='rounded-lg hidden desktop:inline-block'
                         />
 
                         <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
@@ -200,7 +200,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:hidden'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -209,7 +209,7 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:inline-block'
+                            className='rounded-lg hidden desktop:inline-block'
                         />
 
                         <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
@@ -236,7 +236,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:hidden'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -245,7 +245,7 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg desktop:inline-block'
+                            className='rounded-lg hidden desktop:inline-block'
                         />
 
                         <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
