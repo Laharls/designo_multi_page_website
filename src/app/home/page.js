@@ -38,7 +38,7 @@ export default function Home() {
                 />
             </div>
 
-            <div className='grid gap-y-4 justify-items-center'>
+            <div className='grid gap-y-4 justify-items-center mb-[128px]'>
                 {/* First Image */}
                 <div className='relative'>
                     <Image
@@ -94,9 +94,88 @@ export default function Home() {
                 </div>
             </div>
 
-            <div>
-                {/* Next section for next time */}
-            </div>
+                <div className='flex flex-col items-center'>
+                    <div className='relative z-10 mb-12'>
+                        <Image
+                            src="/images/home/desktop/illustration-passionate.svg"
+                            width={202}
+                            height={202}
+                            alt='Character working on a graphical tablet'
+                        />
+
+                        <div className='absolute top-0 z-0'>
+                            <Image
+                                src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                width={202}
+                                height={202}
+                                alt='Light circle design'
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8`} >PASSIONATE</p>
+                        <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20`}>
+                            Each project starts with an in-depth brand research to ensure we only create products that serve a purpose.
+                            We merge art, design, and technology into exciting new solutions.
+                        </p>
+                    </div>
+
+                    <div className='relative z-10 mb-12'>
+                        <Image
+                            src="/images/home/desktop/illustration-resourceful.svg"
+                            width={202}
+                            height={202}
+                            alt='Character working on a graphical tablet'
+                        />
+
+                        <div className='absolute top-0 z-0'>
+                            <Image
+                                src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                width={202}
+                                height={202}
+                                alt='Light circle design'
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8`} >RESOURCEFUL</p>
+                        <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20`}>
+                            Everything that we do has a strategic purpose.
+                            We use an agile approach in all of our projects and value customer collaboration.
+                            It guarantees superior results that fulfill our clients needs.
+                        </p>
+                    </div>
+
+                    <div className='relative z-10 mb-12'>
+                        <Image
+                            src="/images/home/desktop/illustration-friendly.svg"
+                            width={202}
+                            height={202}
+                            alt='Character working on a graphical tablet'
+                        />
+
+                        <div className='absolute top-0 z-0'>
+                            <Image
+                                src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                width={202}
+                                height={202}
+                                alt='Light circle design'
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8`} >FRIENDLY</p>
+                        <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20`}>
+                            We are a group of enthusiastic folks who know how to put people first.
+                            Our success depends on our customers,
+                            and we strive to give them the best experience a company can provide.
+                        </p>
+                    </div>
+
+                </div>
         </main>
     )
 }
