@@ -10,7 +10,7 @@ const jost = Jost({
 export default function About() {
   return (
     <main className="bg-white min-h-screen">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center"> 
         <Image
           priority
           src="/images/about/mobile/image-about-hero.jpg"
@@ -50,7 +50,7 @@ export default function About() {
           alt="A lot of desktop on a table"
         />
 
-        <div className="bg-beige relative pt-20 w-full">
+        <div className="bg-beige relative pt-20 w-full mb-12">
           <div className="flex flex-col justify-center items-center">
             <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>World-class talent</h2>
 
@@ -69,7 +69,7 @@ export default function About() {
         <div className="flew flex-col justify-center items-center">
           {/* Thing with the different places */}
           <div className="relative">
-            <Image 
+            <Image
               src="/images/shared/desktop/illustration-canada.svg"
               width={182}
               height={143}
@@ -83,15 +83,15 @@ export default function About() {
                 alt='Light circle design'
               />
             </div>
-            
-            <div className="flex flex-col justify-center items-center">
-              <p>CANADA</p>
-              <button>SEE LOCATION</button>
+
+            <div className="flex flex-col justify-center items-center mb-12">
+              <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>CANADA</p>
+              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
             </div>
           </div>
 
           <div className="relative">
-            <Image 
+            <Image
               src="/images/shared/desktop/illustration-australia.svg"
               width={182}
               height={143}
@@ -106,14 +106,14 @@ export default function About() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center">
-              <p>AUSTRALIA</p>
-              <button>SEE LOCATION</button>
+            <div className="flex flex-col justify-center items-center mb-12">
+              <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>AUSTRALIA</p>
+              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
             </div>
           </div>
 
           <div className="relative">
-            <Image 
+            <Image
               src="/images/shared/desktop/illustration-united-kingdom.svg"
               width={182}
               height={143}
@@ -128,9 +128,9 @@ export default function About() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center">
-              <p>UNITED KINGDOM</p>
-              <button>SEE LOCATION</button>
+            <div className="flex flex-col justify-center items-center mb-12">
+              <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>UNITED KINGDOM</p>
+              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
             </div>
           </div>
         </div>
