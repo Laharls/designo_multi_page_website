@@ -52,7 +52,7 @@ export default function About() {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <div className="desktop:flex desktop:justify-center ">
+        <div className="desktop:flex desktop:justify-center desktop:mb-40">
           <Image
             priority
             src="/images/about/mobile/image-world-class-talent.jpg"
@@ -89,7 +89,7 @@ export default function About() {
         </div>
 
 
-        <div className="flex flex-col justify-center items-center desktop:flex-row">
+        <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around desktop:mb-40">
           {/* Thing with the different places */}
           <div className="relative">
             <Image
@@ -158,26 +158,33 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex-row-reverse desktop:flex desktop:justify-center desktop:mb-40">
           <Image
             priority
             src="/images/about/mobile/image-real-deal.jpg"
             width={689}
             height={320}
-            alt="random thing"
+            alt="A lot of desktop on a table"
+            className="desktop:hidden"
           />
 
-          <div className="bg-beige pt-20 w-full">
+          <Image
+            priority
+            src="/images/about/desktop/image-real-deal.jpg"
+            width={476}
+            height={680}
+            alt="A lot of desktop on a table"
+            className="hidden desktop:inline-block desktop:rounded-r-lg "
+          />
+
+          <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px] desktop:mb-0 desktop:flex desktop: justify-center desktop:items-center">
             <div className="flex flex-col justify-center items-center">
               <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>The real deal</h2>
 
               <p className={`w-[327px] text-black text-center ${jost.className} text-[15px] not-italic font-normal leading-[25px] mb-20`}>
-                As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
-                Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity.
-                We make design and technology more accessible and give you tools to measure success.
+                As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own. Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity. We make design and technology more accessible and give you tools to measure success.
 
-                We are visual storytellers in appealing and captivating ways.
-                By combining business and marketing strategies, we inspire audiences to take action and drive real results.
+                We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, we inspire audiences to take action and drive real results.
               </p>
             </div>
 
