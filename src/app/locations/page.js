@@ -27,10 +27,10 @@ const UnitedKingdom = dynamic(
 function Locations() {
   return (
     <main className='bg-white min-h-screen'>
-      <div className='flex flex-col justify-center items-center md:w-[90%] md:my-0 mx-auto desktop:flex-row-reverse desktop:items-stretch'>
+      <div className='flex flex-col justify-center items-center md:w-[90%] desktop:mb-8 md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
         <Canada />
 
-        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0'>
+        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
           <div >
             <h1 className={`${jost.className} text-orange text-center text-[32px] font-medium leading-9 mb-6 mt-20`}>Canada</h1>
 
@@ -49,10 +49,10 @@ function Locations() {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center items-center md:w-[90%] md:my-0 mx-auto desktop:flex-row desktop:items-stretch'>
+      <div className='flex flex-col justify-center items-center md:w-[90%] desktop:mb-8 md:mx-auto desktop:flex-row desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
         <Australia />
 
-        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0'>
+        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
           <div>
             <h1 className={`${jost.className} text-orange text-center text-[32px] font-medium leading-9 mb-6 mt-20`}>Australia</h1>
 
@@ -71,10 +71,10 @@ function Locations() {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center items-center md:w-[90%] md:my-0 mx-auto desktop:flex-row-reverse desktop:items-stretch'>
+      <div className='flex flex-col justify-center items-center md:w-[90%] desktop:mb-8 md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
         <UnitedKingdom />
 
-        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0'>
+        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
           <div>
             <h1 className={`${jost.className} text-orange text-center text-[32px] font-medium leading-9 mb-6 mt-20`}>United Kingdom</h1>
 
