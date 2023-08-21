@@ -10,16 +10,26 @@ const jost = Jost({
 export default function About() {
   return (
     <main className="bg-white min-h-screen">
-      <div className="flex flex-col justify-center items-center"> 
+      <div className="flex flex-col justify-center items-center desktop:flex-row-reverse desktop:mb-40"> 
         <Image
           priority
           src="/images/about/mobile/image-about-hero.jpg"
           width={689}
           height={320}
           alt="A lot of desktop on a table"
+          className="desktop:hidden"
         />
 
-        <div className="bg-orange relative overflow-hidden pt-20 w-full md:w-[689px]">
+        <Image
+          priority
+          src="/images/about/mobile/image-about-hero.jpg"
+          width={476}
+          height={480}
+          alt="A lot of desktop on a table"
+          className="hidden desktop:inline-block desktop:rounded-r-lg"
+        />
+
+        <div className="bg-orange relative overflow-hidden pt-20 w-full md:w-[689px] desktop:h-[406px] desktop:rounded-l-lg">
           <div className="flex flex-col justify-center items-center">
             <h1 className={`w-[327px] text-white text-center ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>About us</h1>
 
@@ -66,7 +76,7 @@ export default function About() {
 
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center desktop:flex-row">
           {/* Thing with the different places */}
           <div className="relative">
             <Image
