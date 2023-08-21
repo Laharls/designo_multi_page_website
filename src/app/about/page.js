@@ -10,7 +10,7 @@ const jost = Jost({
 export default function About() {
   return (
     <main className="bg-white min-h-screen">
-      <div className="flex flex-col justify-center items-center desktop:flex-row-reverse desktop:mb-40"> 
+      <div className="flex flex-col justify-center items-center desktop:flex-row-reverse desktop:mb-40">
         <Image
           priority
           src="/images/about/mobile/image-about-hero.jpg"
@@ -52,29 +52,42 @@ export default function About() {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <Image
-          priority
-          src="/images/about/mobile/image-world-class-talent.jpg"
-          width={689}
-          height={320}
-          alt="A lot of desktop on a table"
-        />
+        <div className="desktop:flex desktop:justify-center ">
+          <Image
+            priority
+            src="/images/about/mobile/image-world-class-talent.jpg"
+            width={689}
+            height={320}
+            alt="A lot of desktop on a table"
+            className="desktop:hidden"
+          />
 
-        <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px]">
-          <div className="flex flex-col justify-center items-center">
-            <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>World-class talent</h2>
+          <Image
+            priority
+            src="/images/about/desktop/image-world-class-talent.jpg"
+            width={476}
+            height={680}
+            alt="A lot of desktop on a table"
+            className="hidden desktop:inline-block desktop:rounded-r-lg "
+          />
 
-            <p className={`w-[327px] text-black text-center ${jost.className} text-[15px] not-italic font-normal leading-[25px] mb-20`}>
-              We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully crafted from concept to launch, ensuring success in its given market.
-              We are constantly updating our skills in a myriad of platforms.
+          <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px] desktop:mb-0 desktop:flex desktop: justify-center desktop:items-center">
+            <div className="flex flex-col justify-center items-center">
+              <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>World-class talent</h2>
 
-              Our team is multi-disciplinary and we are not merely interested in form — content and meaning are just as important.
-              We give great importance to craftsmanship, service, and prompt delivery.
-              Clients have always been impressed with our high-quality outcomes that encapsulates their brand’s story and mission.
-            </p>
+              <p className={`w-[327px] text-black text-center ${jost.className} text-[15px] not-italic font-normal leading-[25px] mb-20`}>
+                We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully crafted from concept to launch, ensuring success in its given market.
+                We are constantly updating our skills in a myriad of platforms.
+
+                Our team is multi-disciplinary and we are not merely interested in form — content and meaning are just as important.
+                We give great importance to craftsmanship, service, and prompt delivery.
+                Clients have always been impressed with our high-quality outcomes that encapsulates their brand’s story and mission.
+              </p>
+            </div>
+
           </div>
-
         </div>
+
 
         <div className="flex flex-col justify-center items-center desktop:flex-row">
           {/* Thing with the different places */}
