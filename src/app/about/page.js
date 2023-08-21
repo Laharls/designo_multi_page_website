@@ -14,12 +14,12 @@ export default function About() {
         <Image
           priority
           src="/images/about/mobile/image-about-hero.jpg"
-          width={375}
+          width={689}
           height={320}
           alt="A lot of desktop on a table"
         />
 
-        <div className="bg-orange relative overflow-hidden pt-20 w-full">
+        <div className="bg-orange relative overflow-hidden pt-20 w-full md:w-[689px]">
           <div className="flex flex-col justify-center items-center">
             <h1 className={`w-[327px] text-white text-center ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>About us</h1>
 
@@ -45,12 +45,12 @@ export default function About() {
         <Image
           priority
           src="/images/about/mobile/image-world-class-talent.jpg"
-          width={375}
+          width={689}
           height={320}
           alt="A lot of desktop on a table"
         />
 
-        <div className="bg-beige relative pt-20 w-full mb-12">
+        <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px]">
           <div className="flex flex-col justify-center items-center">
             <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>World-class talent</h2>
 
@@ -66,7 +66,7 @@ export default function About() {
 
         </div>
 
-        <div className="flew flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           {/* Thing with the different places */}
           <div className="relative">
             <Image
