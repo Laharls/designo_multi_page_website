@@ -71,7 +71,7 @@ function Locations() {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center items-center md:w-[90%] desktop:mb-8 md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
+      <div className='flex flex-col justify-center items-center md:w-[90%]  md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
         <UnitedKingdom />
 
         <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
