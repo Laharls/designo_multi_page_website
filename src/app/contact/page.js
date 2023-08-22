@@ -39,7 +39,7 @@ const Contact = () => {
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      setError('Email address is not valid.');
+      setError('Please use a valid email address.');
       return;
     }
 
