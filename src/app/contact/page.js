@@ -70,7 +70,7 @@ const Contact = () => {
             <label for="message"></label>
             <input type="text" id="message" name="message" value={message} onChange={handleMessageChange} className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-16 focus:border-white focus:outline-none mb-10" placeholder="Your message" />
             <div className='flex justify-center items-center md:justify-end'>
-              <button type="submit" className="block bg-white px-12 py-4 rounded-lg mb-[72px]">Submit</button>
+              <button type="submit" className="block bg-white px-12 py-4 rounded-lg mb-[72px] desktop:hover:bg-light-orange desktop:hover:text-white desktop:hover:transition-all">Submit</button>
             </div>
 
             {error && (
@@ -104,7 +104,7 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center mb-12">
             <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>CANADA</p>
-            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
+            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
           </div>
         </div>
 
@@ -126,7 +126,7 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center mb-12">
             <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>AUSTRALIA</p>
-            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
+            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
           </div>
         </div>
 
@@ -148,7 +148,7 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center mb-12">
             <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>UNITED KINGDOM</p>
-            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
+            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
           </div>
         </div>
       </div>

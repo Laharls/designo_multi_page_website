@@ -109,7 +109,7 @@ export default function About() {
 
             <div className="flex flex-col justify-center items-center mb-12">
               <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>CANADA</p>
-              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
+              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
             </div>
           </div>
 
@@ -131,7 +131,7 @@ export default function About() {
 
             <div className="flex flex-col justify-center items-center mb-12">
               <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>AUSTRALIA</p>
-              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
+              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
             </div>
           </div>
 
@@ -153,7 +153,7 @@ export default function About() {
 
             <div className="flex flex-col justify-center items-center mb-12">
               <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>UNITED KINGDOM</p>
-              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className}`}>SEE LOCATION</button>
+              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
             </div>
           </div>
         </div>
