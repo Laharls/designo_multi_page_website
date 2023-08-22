@@ -10,18 +10,18 @@ const jost = Jost({
 
 const Contact = () => (
   <main className="bg-white min-h-screen">
-    <div className="bg-orange flex flex-col justify-center items-center mb-[120px] md:w-[689px] md:mx-auto md:rounded-2xl">
+    <div className="bg-orange flex flex-col justify-center items-center mb-[120px] md:w-[689px] md:mx-auto md:rounded-2xl desktop:w-[1111px] desktop:flex-row">
       <div className="w-[327px] mb-12 md:w-[573px]">
-        <h1 className={`${jost.className} text-white text-center text-[32px] font-medium leading-9 mb-6 mt-[72px] md:text-left`}>Contact Us</h1>
+        <h1 className={`${jost.className} text-white text-center text-[32px] font-medium leading-9 mb-6 mt-[72px] md:text-left desktop:w-[540px] desktop:text-5xl`}>Contact Us</h1>
 
-        <p className={`${jost.className} text-white w-[327px] text-center text-[15px] font-normal not-italic leading-[25px] md:text-left md:w-[573px] md:text-[16px]`}>
+        <p className={`${jost.className} text-white w-[327px] text-center text-[15px] font-normal not-italic leading-[25px] md:text-left md:w-[573px] md:text-[16px] desktop:w-[445px] desktop:leading-[26px]`}>
           Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow.
           If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
         </p>
       </div>
 
       <div>
-        <form action="/send-data-here" method="post" className=" w-[327px] md:w-[573px]">
+        <form action="/send-data-here" method="post" className=" w-[327px] md:w-[573px] desktop:w-[380px] desktop: mt-[55px]">
           <label for="name"></label>
           <input type="text" id="name" name="name" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Name" />
           <label for="email"></label>
@@ -37,7 +37,7 @@ const Contact = () => (
       </div>
     </div>
 
-    <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around desktop:mb-40">
+    <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around desktop:mb-40 desktop:mx-auto">
       {/* Thing with the different places */}
       <div className="relative">
         <Image
