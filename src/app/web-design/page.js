@@ -47,7 +47,7 @@ export default function Web_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -56,7 +56,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -65,10 +65,10 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>EXPRESS</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A multi-carrier shipping website for ecommerce businesses</p>
                         </div>
@@ -83,7 +83,7 @@ export default function Web_design() {
                             width={327}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -92,19 +92,19 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
                             priority
                             src="/images/web-design/desktop/image-transfer.jpg"
-                            width={338}
+                            width={350}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>TRANSFER</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Site for low-cost money transfers and sending money within seconds</p>
                         </div>
@@ -119,7 +119,7 @@ export default function Web_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -128,7 +128,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -137,10 +137,10 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>PHOTON</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A state-of-the-art music player with high-resolution audio and DSP effects</p>
                         </div>
@@ -155,7 +155,7 @@ export default function Web_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -164,7 +164,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -173,10 +173,10 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>BUILDER</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Connects users with local contractors based on their location</p>
                         </div>
@@ -191,7 +191,7 @@ export default function Web_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -200,7 +200,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -209,10 +209,10 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>BLOGR</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Blogr is a platform for creating an online blog or publication</p>
                         </div>
@@ -227,7 +227,7 @@ export default function Web_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -236,7 +236,7 @@ export default function Web_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -245,10 +245,10 @@ export default function Web_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>CAMP</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Get expert training in coding, data, design, and digital marketing</p>
                         </div>
@@ -260,7 +260,7 @@ export default function Web_design() {
             {/* App design & graphic design */}
 
             <div className='flex flex-col justify-center items-center gap-y-4 desktop:flex-row desktop:gap-4'>
-                <div className='relative'>
+                <div className='relative group'>
                     <Image
                         priority
                         src="/images/home/mobile/image-app-design.jpg"
@@ -288,7 +288,7 @@ export default function Web_design() {
                         className='rounded-lg hidden desktop:inline-block'
                     />
 
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                    <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[308px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                         <div className='text-center'>
                             <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>App design</p>
                             <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
@@ -296,7 +296,7 @@ export default function Web_design() {
                     </div>
                 </div>
 
-                <div className='relative'>
+                <div className='relative group'>
                     <Image
                         priority
                         src="/images/home/mobile/image-graphic-design.jpg"
@@ -324,7 +324,7 @@ export default function Web_design() {
                         className='rounded-lg hidden row-span-2 desktop:inline-block'
                     />
 
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                    <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[308px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                         <div className='text-center'>
                             <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Graphic design</p>
                             <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
