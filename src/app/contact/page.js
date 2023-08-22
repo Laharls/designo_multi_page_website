@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { Jost } from 'next/font/google'
 import React, { useState } from 'react';
+import Link from "next/link"
 
 const jost = Jost({
   subsets: ['latin'],
@@ -104,7 +105,7 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center mb-12">
             <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>CANADA</p>
-            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
+            <Link href="/locations"><button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button></Link>
           </div>
         </div>
 
@@ -126,7 +127,7 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center mb-12">
             <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>AUSTRALIA</p>
-            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
+            <Link href="/locations"><button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button></Link>
           </div>
         </div>
 
@@ -148,7 +149,7 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center mb-12">
             <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>UNITED KINGDOM</p>
-            <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
+            <Link href="/locations"><button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button></Link>
           </div>
         </div>
       </div>
