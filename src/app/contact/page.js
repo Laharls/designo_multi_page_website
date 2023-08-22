@@ -10,27 +10,29 @@ const jost = Jost({
 
 const Contact = () => (
   <main className="bg-white min-h-screen">
-    <div className="bg-orange flex flex-col justify-center items-center mb-[120px]">
-      <div className="w-[327px] mb-12">
-        <h1 className={`${jost.className} text-white text-center text-[32px] font-medium leading-9 mb-6 mt-[72px]`}>Contact Us</h1>
+    <div className="bg-orange flex flex-col justify-center items-center mb-[120px] md:w-[689px] md:mx-auto md:rounded-2xl">
+      <div className="w-[327px] mb-12 md:w-[573px]">
+        <h1 className={`${jost.className} text-white text-center text-[32px] font-medium leading-9 mb-6 mt-[72px] md:text-left`}>Contact Us</h1>
 
-        <p className={`${jost.className} text-white w-[327px] text-center text-[15px] font-normal not-italic leading-[25px]`}>
+        <p className={`${jost.className} text-white w-[327px] text-center text-[15px] font-normal not-italic leading-[25px] md:text-left md:w-[573px] md:text-[16px]`}>
           Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow.
           If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
         </p>
       </div>
 
       <div>
-        <form action="/send-data-here" method="post" className=" w-[327px]">
+        <form action="/send-data-here" method="post" className=" w-[327px] md:w-[573px]">
           <label for="name"></label>
-          <input type="text" id="name" name="name" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none" placeholder="Name" />
+          <input type="text" id="name" name="name" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Name" />
           <label for="email"></label>
-          <input type="email" id="email" name="email" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none" placeholder="Email Address" />
+          <input type="email" id="email" name="email" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Email Address" />
           <label for="phone"></label>
-          <input type="tel" id="phone" name="phone" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none" placeholder="Phone" />
+          <input type="tel" id="phone" name="phone" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Phone" />
           <label for="message"></label>
           <input type="text" id="message" name="message" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-16 focus:border-white focus:outline-none mb-10" placeholder="Your message" />
-          <button type="submit" className="block mx-auto bg-white px-12 py-4 rounded-lg mb-[72px]">Submit</button>
+          <div className='flex justify-center items-center md:justify-end'>
+            <button type="submit" className="block bg-white px-12 py-4 rounded-lg mb-[72px]">Submit</button>
+          </div>
         </form>
       </div>
     </div>
