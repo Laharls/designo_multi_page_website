@@ -46,7 +46,7 @@ export default function Graphic_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -55,7 +55,7 @@ export default function Graphic_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -64,10 +64,10 @@ export default function Graphic_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>TIM BROWN</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A book cover designed for
                                 Tim Brown’s new release, ‘Change’</p>
@@ -83,7 +83,7 @@ export default function Graphic_design() {
                             width={327}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -92,19 +92,19 @@ export default function Graphic_design() {
                             width={338}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
                             priority
                             src="/images/graphic-design/desktop/image-boxed-water.jpg"
-                            width={338}
+                            width={350}
                             height={320}
                             alt='Transfer project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>BOXED WATER</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A simple packaging concept made for Boxed Water</p>
                         </div>
@@ -119,7 +119,7 @@ export default function Graphic_design() {
                             width={327}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg md:hidden'
+                            className='rounded-t-lg md:hidden'
                         />
 
                         <Image
@@ -128,7 +128,7 @@ export default function Graphic_design() {
                             width={338}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                            className='rounded-l-lg hidden md:inline-block desktop:hidden'
                         />
 
                         <Image
@@ -137,10 +137,10 @@ export default function Graphic_design() {
                             width={350}
                             height={320}
                             alt='Express project design'
-                            className='rounded-lg hidden desktop:inline-block'
+                            className='rounded-t-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                        <div className='bg-beige rounded-b-lg md:rounded-r-lg md:rounded-b-none desktop:rounded-r-none desktop:rounded-br-lg desktop:rounded-bl-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
                             <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>SCIENCE!</h2>
                             <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A poster made in collaboration with the Federal Art Project</p>
                         </div>
@@ -152,7 +152,7 @@ export default function Graphic_design() {
             {/* App design & graphic design */}
 
             <div className='flex flex-col justify-center items-center gap-y-4 desktop:flex-row desktop:gap-4'>
-                <div className='relative'>
+                <div className='relative group'>
                     <Image
                         priority
                         src="/images/home/mobile/image-app-design.jpg"
@@ -180,7 +180,7 @@ export default function Graphic_design() {
                         className='rounded-lg hidden desktop:inline-block'
                     />
 
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                    <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[308px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                         <div className='text-center'>
                             <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>App design</p>
                             <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
@@ -188,7 +188,7 @@ export default function Graphic_design() {
                     </div>
                 </div>
 
-                <div className='relative'>
+                <div className='relative group'>
                     <Image
                         priority
                         src="/images/home/mobile/image-web-design.jpg"
@@ -216,7 +216,7 @@ export default function Graphic_design() {
                         className='rounded-lg hidden row-span-2 desktop:inline-block'
                     />
 
-                    <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                    <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[308px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                         <div className='text-center'>
                             <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Web design</p>
                             <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
