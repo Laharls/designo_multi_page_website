@@ -68,9 +68,9 @@ export default function Web_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>EXPRESS</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A multi-carrier shipping website for ecommerce businesses</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>EXPRESS</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A multi-carrier shipping website for ecommerce businesses</p>
                         </div>
                     </div>
 
@@ -104,9 +104,9 @@ export default function Web_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>TRANSFER</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Site for low-cost money transfers and sending money within seconds</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>TRANSFER</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Site for low-cost money transfers and sending money within seconds</p>
                         </div>
                     </div>
 
@@ -140,9 +140,9 @@ export default function Web_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>PHOTON</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A state-of-the-art music player with high-resolution audio and DSP effects</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>PHOTON</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A state-of-the-art music player with high-resolution audio and DSP effects</p>
                         </div>
                     </div>
 
@@ -176,9 +176,9 @@ export default function Web_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>BUILDER</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Connects users with local contractors based on their location</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>BUILDER</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Connects users with local contractors based on their location</p>
                         </div>
                     </div>
 
@@ -212,9 +212,9 @@ export default function Web_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>BLOGR</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Blogr is a platform for creating an online blog or publication</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>BLOGR</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Blogr is a platform for creating an online blog or publication</p>
                         </div>
                     </div>
 
@@ -248,9 +248,9 @@ export default function Web_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>CAMP</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Get expert training in coding, data, design, and digital marketing</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>CAMP</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Get expert training in coding, data, design, and digital marketing</p>
                         </div>
                     </div>
                 </div>

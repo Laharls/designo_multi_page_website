@@ -67,9 +67,9 @@ export default function App_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>AIRFILTER</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Solving the problem of poor indoor air quality by filtering the air    </p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>AIRFILTER</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Solving the problem of poor indoor air quality by filtering the air    </p>
                         </div>
                     </div>
 
@@ -103,9 +103,9 @@ export default function App_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>EYECAM</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Product that lets you edit your favorite photos and videos at any time</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>EYECAM</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Product that lets you edit your favorite photos and videos at any time</p>
                         </div>
                     </div>
 
@@ -139,9 +139,9 @@ export default function App_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>FACEIT</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>Get to meet your favorite internet superstar with the faceit app</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>FACEIT</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>Get to meet your favorite internet superstar with the faceit app</p>
                         </div>
                     </div>
 
@@ -175,9 +175,9 @@ export default function App_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>TODO</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A todo app that features cloud sync with light and dark mode</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>TODO</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A todo app that features cloud sync with light and dark mode</p>
                         </div>
                     </div>
 
@@ -211,9 +211,9 @@ export default function App_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>LOOPSTUDIOS</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A VR experience app made for Loopstudios</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>LOOPSTUDIOS</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A VR experience app made for Loopstudios</p>
                         </div>
                     </div>
                 </div>

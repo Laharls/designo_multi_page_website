@@ -67,9 +67,9 @@ export default function Graphic_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>TIM BROWN</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A book cover designed for
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>TIM BROWN</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A book cover designed for
                                 Tim Brown’s new release, ‘Change’</p>
                         </div>
                     </div>
@@ -104,9 +104,9 @@ export default function Graphic_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>BOXED WATER</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A simple packaging concept made for Boxed Water</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>BOXED WATER</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A simple packaging concept made for Boxed Water</p>
                         </div>
                     </div>
 
@@ -140,9 +140,9 @@ export default function Graphic_design() {
                             className='rounded-lg hidden desktop:inline-block'
                         />
 
-                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px]'>
-                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4`}>SCIENCE!</h2>
-                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8`}>A poster made in collaboration with the Federal Art Project</p>
+                        <div className='bg-beige rounded-lg flex flex-col justify-center items-center md:w-[350px] desktop:hover:bg-orange desktop:hover:transition-all group'>
+                            <h2 className={`${jost.className} w-[267.206px] text-center text-xl not-italic font-medium leading-[26px] tracking-[5px] text-orange mt-8 mb-4 desktop:group-hover:text-white desktop:hover:transition-all`}>SCIENCE!</h2>
+                            <p className={`${jost.className} w-[267.206px] text-black text-center text-base not-italic font-normal leading-[26px] mb-8 desktop:group-hover:text-white desktop:hover:transition-all`}>A poster made in collaboration with the Federal Art Project</p>
                         </div>
                     </div>
                 </div>
