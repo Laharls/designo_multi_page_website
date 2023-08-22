@@ -10,17 +10,17 @@ const jost = Jost({
 })
 
 const Canada = dynamic(
-  () => import('../__components/canada_map'), // Replace '@components/Map' with the actual location of your Map component
+  () => import('../__components/canada_map'),
   { ssr: false }
 );
 
 const Australia = dynamic(
-  () => import('../__components/australia_map'), // Replace '@components/Map' with the actual location of your Map component
+  () => import('../__components/australia_map'),
   { ssr: false }
 );
 
 const UnitedKingdom = dynamic(
-  () => import('../__components/united_kingdom_map'), // Replace '@components/Map' with the actual location of your Map component
+  () => import('../__components/united_kingdom_map'),
   { ssr: false }
 );
 
@@ -30,7 +30,7 @@ function Locations() {
       <div className='flex flex-col justify-center items-center md:w-[90%] desktop:mb-8 md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
         <Canada />
 
-        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
+        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 md:mt-[31px] desktop:mt-0 desktop:mb-0 desktop:w-[200%]'>
           <div >
             <h1 className={`${jost.className} text-orange text-center text-[32px] font-medium leading-9 mb-6 mt-20`}>Canada</h1>
 
@@ -52,7 +52,7 @@ function Locations() {
       <div className='flex flex-col justify-center items-center md:w-[90%] desktop:mb-8 md:mx-auto desktop:flex-row desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
         <Australia />
 
-        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
+        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 md:mt-[31px] desktop:mt-0 desktop:mb-0 desktop:w-[200%]'>
           <div>
             <h1 className={`${jost.className} text-orange text-center text-[32px] font-medium leading-9 mb-6 mt-20`}>Australia</h1>
 
@@ -71,10 +71,10 @@ function Locations() {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center items-center md:w-[90%]  md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px]'>
+      <div className='flex flex-col justify-center items-center md:w-[90%]  md:mx-auto desktop:flex-row-reverse desktop:items-stretch desktop:w-[73%] desktop:gap-[30px] desktop:pb-40'>
         <UnitedKingdom />
 
-        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 desktop:mb-0 desktop:w-[200%]'>
+        <div className='flex flex-col justify-center items-center bg-beige w-full mb-10 md:mt-[31px] desktop:mt-0 desktop:mb-0 desktop:w-[200%]'>
           <div>
             <h1 className={`${jost.className} text-orange text-center text-[32px] font-medium leading-9 mb-6 mt-20`}>United Kingdom</h1>
 
@@ -95,7 +95,6 @@ function Locations() {
     </main>
   )
 
-  //return <Map />;
 }
 
 export default Locations;
