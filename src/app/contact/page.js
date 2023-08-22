@@ -84,7 +84,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around desktop:mb-40 desktop:mx-auto">
+      <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around desktop:mx-auto">
         {/* Thing with the different places */}
         <div className="relative">
           <Image
