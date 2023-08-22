@@ -41,7 +41,7 @@ export default function Home() {
             <div className='desktop:flex desktop:justify-center'>
                 <div className='grid gap-y-4 justify-items-center mb-[128px] desktop:grid-cols-[541px_541px] desktop:grid-rows-2 desktop:gap-x-4'>
                     {/* First Image */}
-                    <div className='relative desktop:row-span-2'>
+                    <div className='relative desktop:row-span-2 group'>
                         <Image
                             priority
                             src="/images/home/mobile/image-web-design.jpg"
@@ -68,7 +68,7 @@ export default function Home() {
                             alt='A part of a laptop with a touchpad'
                             className='rounded-lg hidden row-span-2 desktop:inline-block'
                         />
-                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                             <div className='text-center'>
                                 <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Web design</p>
                                 <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
@@ -77,7 +77,7 @@ export default function Home() {
                     </div>
 
                     {/* Second Image */}
-                    <div className='relative'>
+                    <div className='relative group'>
                         <Image
                             priority
                             src="/images/home/mobile/image-app-design.jpg"
@@ -104,7 +104,7 @@ export default function Home() {
                             alt='A part of a laptop with a touchpad'
                             className='rounded-lg hidden row-span-2 desktop:inline-block'
                         />
-                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                             <div className='text-center'>
                                 <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>App design</p>
                                 <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
@@ -113,7 +113,7 @@ export default function Home() {
                     </div>
 
                     {/* Third Image */}
-                    <div className='relative'>
+                    <div className='relative group'>
                         <Image
                             priority
                             src="/images/home/mobile/image-graphic-design.jpg"
@@ -140,7 +140,7 @@ export default function Home() {
                             alt='A part of a laptop with a touchpad'
                             className='rounded-lg hidden row-span-2 desktop:inline-block'
                         />
-                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center'>
+                        <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
                             <div className='text-center'>
                                 <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Graphic design</p>
                                 <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
