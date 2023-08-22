@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Jost } from 'next/font/google'
 
 const jost = Jost({
@@ -10,26 +11,35 @@ const jost = Jost({
 export default function About() {
   return (
     <main className="bg-white min-h-screen">
-      <div className="flex flex-col justify-center items-center desktop:flex-row-reverse desktop:mb-40">
+      <div className="flex flex-col justify-center items-center desktop:flex-row-reverse md:mb-[120px] desktop:mb-40">
         <Image
           priority
           src="/images/about/mobile/image-about-hero.jpg"
           width={689}
           height={320}
           alt="A lot of desktop on a table"
-          className="desktop:hidden"
+          className="md:hidden desktop:hidden"
         />
 
         <Image
           priority
-          src="/images/about/mobile/image-about-hero.jpg"
+          src="/images/about/tablet/image-about-hero.jpg"
+          width={689}
+          height={587}
+          alt="A lot of desktop on a table"
+          className="hidden rounded-t-lg md:inline-block desktop:hidden"
+        />
+
+        <Image
+          priority
+          src="/images/about/desktop/image-about-hero.jpg"
           width={476}
           height={480}
           alt="A lot of desktop on a table"
           className="hidden desktop:inline-block desktop:rounded-r-lg"
         />
 
-        <div className="bg-orange relative overflow-hidden pt-20 w-full md:w-[689px] desktop:h-[406px] desktop:rounded-l-lg">
+        <div className="bg-orange relative overflow-hidden pt-20 w-full md:w-[689px] md:rounded-b-lg desktop:h-[480px] desktop:rounded-l-lg desktop:rounded-br-none">
           <div className="flex flex-col justify-center items-center">
             <h1 className={`w-[327px] text-white text-center ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>About us</h1>
 
@@ -52,14 +62,23 @@ export default function About() {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <div className="desktop:flex desktop:justify-center desktop:mb-40">
+        <div className="desktop:flex desktop:justify-center md:mb-[120px] desktop:mb-40">
           <Image
             priority
             src="/images/about/mobile/image-world-class-talent.jpg"
             width={689}
             height={320}
             alt="A lot of desktop on a table"
-            className="desktop:hidden"
+            className="md:hidden desktop:hidden"
+          />
+
+          <Image
+            priority
+            src="/images/about/tablet/image-world-class-talent.jpg"
+            width={689}
+            height={587}
+            alt="A lot of desktop on a table"
+            className="hidden rounded-t-lg md:inline-block desktop:hidden"
           />
 
           <Image
@@ -68,10 +87,10 @@ export default function About() {
             width={476}
             height={680}
             alt="A lot of desktop on a table"
-            className="hidden desktop:inline-block desktop:rounded-r-lg "
+            className="hidden desktop:inline-block desktop:rounded-l-lg "
           />
 
-          <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px] desktop:mb-0 desktop:flex desktop: justify-center desktop:items-center">
+          <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px] md:rounded-b-lg desktop:mb-0 desktop:flex desktop: justify-center desktop:items-center desktop:rounded-b-none desktop:rounded-br-lg desktop:rounded-tr-lg">
             <div className="flex flex-col justify-center items-center">
               <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>World-class talent</h2>
 
@@ -89,7 +108,7 @@ export default function About() {
         </div>
 
 
-        <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around desktop:mb-40">
+        <div className="flex flex-col justify-center items-center desktop:flex-row desktop:w-[1110px] desktop:justify-around  md:mb-[120px] desktop:mb-40">
           {/* Thing with the different places */}
           <div className="relative">
             <Image
@@ -109,7 +128,7 @@ export default function About() {
 
             <div className="flex flex-col justify-center items-center mb-12">
               <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>CANADA</p>
-              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
+              <Link href="/locations"><button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button></Link>
             </div>
           </div>
 
@@ -131,11 +150,11 @@ export default function About() {
 
             <div className="flex flex-col justify-center items-center mb-12">
               <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>AUSTRALIA</p>
-              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
+              <Link href="/locations"><button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button></Link>
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative desktop:h-[376px]">
             <Image
               src="/images/shared/desktop/illustration-united-kingdom.svg"
               width={182}
@@ -151,9 +170,9 @@ export default function About() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center mb-12">
+            <div className="flex flex-col justify-center items-center">
               <p className={`${jost.className} text-center font-medium leading-[26px] tracking-wider not-italic text-xl mb-8 mt-8`}>UNITED KINGDOM</p>
-              <button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button>
+              <Link href="/locations"><button className={`py-4 px-6 bg-orange rounded-lg text-white ${jost.className} desktop:hover:bg-opacity-40 desktop:hover:transition-all`}>SEE LOCATION</button></Link>
             </div>
           </div>
         </div>
@@ -165,7 +184,16 @@ export default function About() {
             width={689}
             height={320}
             alt="A lot of desktop on a table"
-            className="desktop:hidden"
+            className="md:hidden desktop:hidden"
+          />
+
+          <Image
+            priority
+            src="/images/about/tablet/image-real-deal.jpg"
+            width={689}
+            height={587}
+            alt="A lot of desktop on a table"
+            className="hidden rounded-t-lg md:inline-block desktop:hidden"
           />
 
           <Image
@@ -177,7 +205,7 @@ export default function About() {
             className="hidden desktop:inline-block desktop:rounded-r-lg "
           />
 
-          <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px] desktop:mb-0 desktop:flex desktop: justify-center desktop:items-center">
+          <div className="bg-beige relative pt-20 w-full mb-12 md:w-[689px] md:rounded-b-lg desktop:mb-0 desktop:flex desktop:justify-center desktop:items-center desktop:rounded-br-none desktop:rounded-tl-lg">
             <div className="flex flex-col justify-center items-center">
               <h2 className={`w-[327px] text-center text-orange ${jost.className} text-[32px] not-italic font-medium leading-9 mb-6`}>The real deal</h2>
 
