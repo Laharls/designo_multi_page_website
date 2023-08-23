@@ -2,6 +2,7 @@ import './globals.css'
 import Image from "next/image"
 import Link from "next/link"
 import { Jost } from 'next/font/google'
+import MobileMenu from './__components/mobile_menu';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -30,15 +31,9 @@ export default function RootLayout({ children }) {
             />
           </Link>
 
-
-          <Image
-            priority
-            src="/images/shared/mobile/icon-hamburger.svg"
-            width={24}
-            height={20}
-            className="mr-6 md:hidden"
-            alt="Hamburger button for mobile"
-          />
+          <div className='md:hidden'>
+            <MobileMenu />
+          </div>
 
           <ul className="hidden md:flex items-center gap-x-10 tracking-wide desktop:pr-40">
 

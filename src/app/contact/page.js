@@ -62,13 +62,13 @@ const Contact = () => {
 
         <div>
           <form onSubmit={handleSubmit} action="/send-data-here" method="post" autoComplete="off" className=" w-[327px] md:w-[573px] desktop:w-[380px] desktop: mt-[55px]">
-            <label for="name"></label>
+            <label htmlFor="name"></label>
             <input type="text" id="name" name="name" value={name} onChange={handleNameChange} className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Name" />
-            <label for="email"></label>
+            <label htmlFor="email"></label>
             <input type="email" id="email" name="email" value={email} onChange={handleEmailChange} className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Email Address" />
-            <label for="phone"></label>
+            <label htmlFor="phone"></label>
             <input type="tel" id="phone" name="phone" className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-2 focus:border-white focus:outline-none md:mb-6" placeholder="Phone" />
-            <label for="message"></label>
+            <label htmlFor="message"></label>
             <input type="text" id="message" name="message" value={message} onChange={handleMessageChange} className="bg-orange text-white placeholder-white placeholder-opacity-75 border-b-[1px] w-full pl-2 pb-16 focus:border-white focus:outline-none mb-10" placeholder="Your message" />
             <div className='flex justify-center items-center md:justify-end'>
               <button type="submit" className="block bg-white px-12 py-4 rounded-lg mb-[72px] desktop:hover:bg-light-orange desktop:hover:text-white desktop:hover:transition-all">Submit</button>
