@@ -1,5 +1,4 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Image from "next/image"
 import Link from "next/link"
 import { Jost } from 'next/font/google'
@@ -20,14 +19,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jost.className}>
         <header className="flex justify-between items-center h-24 bg-white md:p-12 desktop:pl-40">
-          <Image
-            priority
-            src="/images/shared/desktop/logo-dark.png"
-            width={202}
-            height={27}
-            className="ml-6 md:ml-10"
-            alt="Designo logo"
-          />
+          <Link href="/">
+            <Image
+              priority
+              src="/images/shared/desktop/logo-dark.png"
+              width={202}
+              height={27}
+              className="ml-6 md:ml-10"
+              alt="Designo logo"
+            />
+          </Link>
+
 
           <Image
             priority
@@ -40,28 +42,30 @@ export default function RootLayout({ children }) {
 
           <ul className="hidden md:flex items-center gap-x-10 tracking-wide desktop:pr-40">
 
-            <li><Link href="/about" className={jost.className}>Our company</Link></li>
-            <li><Link href="/locations" className={jost.className}>Locations</Link></li>
-            <li><Link href="/contact" className={jost.className}>Contact</Link></li>
+            <li><Link href="/about" className={`${jost.className} hover:text-black hover:transition-all hover:text-opacity-40`}>Our company</Link></li>
+            <li><Link href="/locations" className={`${jost.className} hover:text-black hover:transition-all hover:text-opacity-40`}>Locations</Link></li>
+            <li><Link href="/contact" className={`${jost.className} hover:text-black hover:transition-all hover:text-opacity-40`}>Contact</Link></li>
           </ul>
         </header>
         {children}
         <footer>
           <div className="bg-black">
             <div className="flex flex-col justify-center items-center md:flex-row md:justify-between">
-              <Image
-                src="/images/shared/desktop/logo-light.png"
-                width={202}
-                height={27}
-                alt="Designo logo light"
-                className="mt-16 md:ml-[39px] md:mt-[87px] lg:ml-[169px]"
-              />
+              <Link href="/">
+                <Image
+                  src="/images/shared/desktop/logo-light.png"
+                  width={202}
+                  height={27}
+                  alt="Designo logo light"
+                  className="mt-16 md:ml-[39px] md:mt-[87px] lg:ml-[169px]"
+                />
+              </Link>
 
               <ul className="text-white md:flex md:mr-[39px] items-center gap-x-10 mt-16 md:mt-[87px] tracking-wide lg:mr-[169px]">
 
-                <li className="mb-8 text-center md:mb-0"><Link href="/about" className={`${jost.className} text-white  text-sm font-normal leading-[14px] tracking-wider`}>OUR COMPANY</Link></li>
-                <li className="mb-8 text-center md:mb-0"><Link href="/locations" className={`${jost.className} text-white  text-sm font-normal leading-[14px] tracking-wider`}>LOCATIONS</Link></li>
-                <li className="mb-8 text-center md:mb-0"><Link href="/contact" className={`${jost.className} text-white  text-sm font-normal leading-[14px] tracking-wider`}>CONTACT</Link></li>
+                <li className="mb-8 text-center md:mb-0"><Link href="/about" className={`${jost.className} text-white  text-sm font-normal leading-[14px] tracking-wider hover:text-orange hover:transition-all`}>OUR COMPANY</Link></li>
+                <li className="mb-8 text-center md:mb-0"><Link href="/locations" className={`${jost.className} text-white  text-sm font-normal leading-[14px] tracking-wider hover:text-orange hover:transition-all`}>LOCATIONS</Link></li>
+                <li className="mb-8 text-center md:mb-0"><Link href="/contact" className={`${jost.className} text-white  text-sm font-normal leading-[14px] tracking-wider hover:text-orange hover:transition-all`}>CONTACT</Link></li>
               </ul>
             </div>
 
