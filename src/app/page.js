@@ -1,113 +1,246 @@
 import Image from 'next/image'
+import { Jost } from 'next/font/google'
+
+const jost = Jost({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: ['400', '500']
+})
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    return (
+        <main className="min-h-screen bg-white">
+            <div className='bg-orange flex flex-col items-center relative overflow-hidden h-[843px] mb-24 md:mx-10 md:rounded-lg'>
+                <h1 className={`${jost.className} text-white text-center text-[32px] not-italic font-medium leading-9 w-[327px] h-[118px] mb-4 mt-16 z-20 md:w-[573px] md:text-[48px] md:leading-[48px] md:mb-12`}>Award-winning custom designs and digital branding solutions</h1>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+                <p className={`${jost.className} text-white text-center text-[15px] not-italic font-normal leading-[25px] w-[327px] mb-4 z-20 md:w-[445px] md:text-base md:leading-[26px]`}>With over 10 years in the industry, we are experienced in creating fully responsive websites,
+                    app design, and engaging brand experiences. Find out more about our services.
+                </p>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+                <button className={`${jost.className} cursor-pointer no-underline inline-flex justify-center items-center bg-white text-black text-[15px] not-italic font-medium leading-normal tracking-wider uppercase py-4 px-6 rounded-lg z-20`}>Learn More</button>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+                <Image
+                    priority
+                    src="/images/home/desktop/bg-pattern-hero-home.svg"
+                    width={640}
+                    height={640}
+                    alt='A circle for the design'
+                    className='absolute top-[14%] left-[0rem] z-10 max-w-[150%] md:left-[16rem]'
+                />
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+                <Image
+                    priority
+                    src="/images/home/desktop/image-hero-phone.png"
+                    width={663}
+                    height={828}
+                    alt='hero phone frame display'
+                    className='absolute top-[32%] z-10 max-w-[175%]'
+                />
+            </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+            <div className='desktop:flex desktop:justify-center'>
+                <div className='grid gap-y-4 justify-items-center mb-[128px] desktop:grid-cols-[541px_541px] desktop:grid-rows-2 desktop:gap-x-4'>
+                    {/* First Image */}
+                    <div className='relative desktop:row-span-2 group'>
+                        <Image
+                            priority
+                            src="/images/home/mobile/image-web-design.jpg"
+                            width={327}
+                            height={250}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg md:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/tablet/image-web-design.jpg"
+                            width={689}
+                            height={200}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/desktop/image-web-design-large.jpg"
+                            width={541}
+                            height={640}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden row-span-2 desktop:inline-block'
+                        />
+                        <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[640px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
+                            <div className='text-center'>
+                                <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Web design</p>
+                                <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Second Image */}
+                    <div className='relative group'>
+                        <Image
+                            priority
+                            src="/images/home/mobile/image-app-design.jpg"
+                            width={327}
+                            height={250}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg md:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/tablet/image-app-design.jpg"
+                            width={689}
+                            height={200}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/desktop/image-app-design.jpg"
+                            width={541}
+                            height={308}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden row-span-2 desktop:inline-block'
+                        />
+                        <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[308px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
+                            <div className='text-center'>
+                                <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>App design</p>
+                                <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Third Image */}
+                    <div className='relative group'>
+                        <Image
+                            priority
+                            src="/images/home/mobile/image-graphic-design.jpg"
+                            width={327}
+                            height={250}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg md:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/tablet/image-graphic-design.jpg"
+                            width={689}
+                            height={200}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden md:inline-block desktop:hidden'
+                        />
+
+                        <Image
+                            priority
+                            src="/images/home/desktop/image-graphic-design.jpg"
+                            width={541}
+                            height={308}
+                            alt='A part of a laptop with a touchpad'
+                            className='rounded-lg hidden row-span-2 desktop:inline-block'
+                        />
+                        <div className='absolute top-0 left-0 w-full h-full md:h-[200px] desktop:h-[308px] rounded-lg flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-0 desktop:group-hover:bg-orange desktop:group-hover:bg-opacity-80 desktop:transition-colors desktop:duration-300'>
+                            <div className='text-center'>
+                                <p className={`${jost.className} text-white text-center text-[28px] not-italic font-medium leading-9 tracking-wider uppercase`}>Graphic design</p>
+                                <p className={`${jost.className} text-white text-[15px] not-italic font-regular leading-normal tracking-widest uppercase`}>View projects <span className='text-orange'>&gt;</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* --------------------------------------------------------------------------------- */}
+            <div className='desktop:flex desktop:justify-center'>
+                <div className='flex flex-col items-center md:items-stretch desktop:flex-row'>
+                    <div className='flex flex-col items-center md:flex-row justify-around desktop:flex-col'>
+                        <div className='relative z-10 mb-12'>
+                            <Image
+                                src="/images/home/desktop/illustration-passionate.svg"
+                                width={202}
+                                height={202}
+                                alt='Character working on a graphical tablet'
+                            />
+
+                            <div className='absolute top-0 z-0'>
+                                <Image
+                                    src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                    width={202}
+                                    height={202}
+                                    alt='Light circle design'
+                                />
+                            </div>
+                        </div>
+
+                        <div className='desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
+                            <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px] desktop:text-center`} >PASSIONATE</p>
+                            <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px] desktop:text-center desktop:w-[350px]`}>
+                                Each project starts with an in-depth brand research to ensure we only create products that serve a purpose.
+                                We merge art, design, and technology into exciting new solutions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col items-center md:flex-row justify-around desktop:flex-col'>
+                        <div className='relative z-10 mb-12'>
+                            <Image
+                                src="/images/home/desktop/illustration-resourceful.svg"
+                                width={202}
+                                height={202}
+                                alt='Character working on a graphical tablet'
+                            />
+
+                            <div className='absolute top-0 z-0'>
+                                <Image
+                                    src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                    width={202}
+                                    height={202}
+                                    alt='Light circle design'
+                                />
+                            </div>
+                        </div>
+
+                        <div className='desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
+                            <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px] desktop:text-center`} >RESOURCEFUL</p>
+                            <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px] desktop:text-center desktop:w-[350px]`}>
+                                Everything that we do has a strategic purpose.
+                                We use an agile approach in all of our projects and value customer collaboration.
+                                It guarantees superior results that fulfill our clients needs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col items-center md:flex-row justify-around desktop:flex-col'>
+                        <div className='relative z-10 mb-12'>
+                            <Image
+                                src="/images/home/desktop/illustration-friendly.svg"
+                                width={202}
+                                height={202}
+                                alt='Character working on a graphical tablet'
+                            />
+
+                            <div className='absolute top-0 z-0'>
+                                <Image
+                                    src="/images/shared/desktop/bg-pattern-small-circle.svg"
+                                    width={202}
+                                    height={202}
+                                    alt='Light circle design'
+                                />
+                            </div>
+                        </div>
+
+                        <div className='desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
+                            <p className={`text-black text-center ${jost.className} text-xl font-medium leading-[26px] tracking-[5px] mb-8 md:text-start md:w-[439px] desktop:text-center`} >FRIENDLY</p>
+                            <p className={`text-black text-center ${jost.className} text-base font-normal leading-[26px] w-[327px] mb-20 md:text-start md:w-[439px] desktop:text-center desktop:w-[350px]`}>
+                                We are a group of enthusiastic folks who know how to put people first.
+                                Our success depends on our customers,
+                                and we strive to give them the best experience a company can provide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    )
 }
